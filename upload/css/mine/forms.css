@@ -1,0 +1,131 @@
+/* input */
+
+.form-group .form-control ~ label:after, .form-group .form-control ~ .form-control-line:after {
+  background-color: rgba(88, 137, 195, 1) !important;
+}
+.form-group .form-control:focus ~ label {
+  color: rgba(88, 137, 195, 1) !important;
+}
+.form-group > label, .form-group .control-label {
+  font-size: 12px;
+  opacity: 0.9;
+  margin-bottom: 0;
+}
+
+blockquote {
+  border-left: 3px solid rgba(71, 114, 165, .7) !important;
+}
+.formation blockquote {
+  border-left: 4px solid rgba(255, 255, 255, 0.7) !important;
+}
+
+/* badge */
+
+.info-badge {
+  text-align: left;
+  margin-top: -12px;
+  margin-left: -16px;
+  padding-bottom: 15px;
+}
+
+.style-badge {
+  background-color: rgba(88, 137, 195, 1) !important;
+}
+
+.style-badge2 {
+  background-color: rgba(112, 167, 138, 1) !important;
+  /*color: rgba(88, 137, 195, 1) !important;*/
+}
+
+/* tagsinput */
+
+.label-primary {
+  background-color: rgba(88, 137, 195, 1)!important;
+  font-size: 12px !important;
+  padding: 8px !important;
+}
+
+.label-primary[href]:hover,
+.label-primary[href]:focus {
+  background-color: rgba(88, 137, 195, 1) !important;
+}
+
+/* select 2 */
+
+.select2-results .select2-highlighted {
+  background-color: rgba(88, 137, 195, 1) !important;
+}
+
+.select2-container-multi .select2-choices .select2-search-choice {
+  background-color: rgba(88, 137, 195, 1) !important;
+  border: 1px solid rgba(88, 137, 195, 1) !important;
+  border-radius: rgba(88, 137, 195, 1) !important;
+}
+
+.config .select2-container .select2-choice {
+    padding: inherit!important;
+    margin: 4px 4px 3px 0;
+    overflow: hidden;
+    position: relative;
+    font-size: 13px;
+    line-height: 36px;
+    background-color: rgba(88, 137, 195, 1);
+    color: #fff !important;
+    cursor: default;
+    border: 1px solid rgba(88, 137, 195, 1);
+    border-radius: rgba(88, 137, 195, 1);
+    background-clip: padding-box;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.select2-container .select2-choice {
+    text-align: left !important;
+}
+
+.config .select2-container .select2-choice .select2-default {
+    background-color: #fff !important;
+}
+
+/* picture */
+
+#picture a, #picture2 a, #pdf a, #pdf2 a {
+  margin-top: 10px;
+  position: relative;
+  padding:15px 15px;
+  font-size:14px;
+  cursor:pointer;
+  display:inline-block;
+  line-height:1;
+}
+
+#picture a:hover, #picture2 a:hover, #pdf a:hover, #pdf2 a:hover {
+}
+
+#picture input, #picture2 input, #pdf input, #pdf2 input {
+  display:none;
+}
+
+#pdf_preview, #pdf_preview2 {
+    height: 210px;
+}
+
+.ms-container .ms-list{
+  height: 300px !important;
+}
+
+.ms-container .ms-selectable li.ms-elem-selectable,
+.ms-container .ms-selection li.ms-elem-selection,
+.ms-container .ms-selectable li.ms-hover, .ms-container .ms-selection li.ms-hover {
+  color: rgba(88, 137, 195, 1) !important;
+}
+
+/* checkbox */
+
+.checkbox-styled:not(ie8) input ~ span:before, .radio-styled:not(ie8) input ~ span:before {
+    border: 2px solid #a8b0b0 ;
+    opacity: .9;
+}

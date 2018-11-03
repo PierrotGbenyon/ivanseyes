@@ -1,0 +1,125 @@
+/* logo */
+
+.style-logo{
+  color: #2298f6 !important;
+}
+
+.style-logo-light{
+  color: rgba(172, 177, 182, 1) !important;
+}
+
+.ml9 {
+  margin-left: 9px;
+}
+
+.name_suite {
+    margin-left: -2px !important;
+}
+
+.name{
+    text-shadow: 1px 2px 2px black;
+}
+
+.name2{
+    text-shadow: 1px 2px 2px #fff;
+}
+
+/* couleur */
+
+#menubar.menubar-inverse:before {
+  background-color: rgba(71, 114, 165, 1)  !important;
+}
+
+/* couleur du scroller*/
+
+#menubar.menubar-inverse .nano-slider {
+  background-color: rgba(255, 255, 255, .7) !important;
+}
+
+/* espacement entre les menu */
+
+/* .gui-controls > li {
+    position: relative;
+    margin-bottom: 2.3px !important;
+} */
+
+/*Couleur des nom des menu*/
+
+.gui-controls li .title {
+  color: rgba(255, 255, 255, 0.75) !important;
+  font-style: normal !important;
+  /* font-weight: bold !important; */
+  text-shadow: none !important;
+}
+
+.menubar-inverse .gui-controls li.gui-folder > a .title {
+  color: rgba(255, 255, 255, 0.75) !important;
+  font-style: normal !important;
+  text-shadow: none !important;
+}
+
+.menubar-inverse .gui-controls li.gui-folder.expanded > a .title,
+.menubar-inverse .gui-controls li.gui-folder.active > a .title {
+  color: rgba(255, 255, 255, 0.75) !important;
+}
+
+/*on hover*/
+
+.menubar-inverse .gui-controls > li:not(.gui-folder) > a:hover,
+.menubar-inverse .gui-controls > li ul > li > a:hover,
+.menubar-inverse .gui-controls > li ul > li > a:focus {
+  background-color: rgba(109, 158, 225, .4) !important;
+}
+
+/*Couleur des icones du menu*/
+
+.menubar-inverse .gui-icon {
+  color: rgba(255, 255, 255, 1) !important;
+}
+
+.menubar-inverse .gui-icon:hover {
+  background-color: rgba(109, 158, 225, .8) !important;
+  border-color: rgba(109, 158, 225, .8) !important;
+  /* color: rgba(255, 255, 255, 0.9) !important; */
+}
+
+/* on active */
+.menubar-inverse .gui-controls a.expanded .gui-icon,
+.menubar-inverse .gui-controls li.active .gui-icon,
+.menubar-inverse .gui-controls li.active .gui-icon:hover {
+  background-color: rgba(255, 255, 225, 1) !important;
+  border-color: rgba(255, 255, 255, 1) !important;
+  color: rgba(71, 114, 165, 1) !important;
+}
+
+.menubar-inverse .gui-controls > li.active:not(.gui-folder) > a,
+.menubar-inverse .gui-controls > li ul > li > a:active,
+.menubar-inverse .gui-controls > li ul > li > a.active  {
+  background-color: rgba(109, 158, 225, .4) !important;
+  color: #fff !important;
+}
+
+.gui-controls li.active > a .title {
+    color: #fff !important;
+    font-style: normal !important;
+    font-weight: 500;
+}
+
+/*Effets du menu de groupage*/
+.group_menu >a .title {
+  color: rgba(109, 158, 225, .5) !important;
+}
+
+.group_menu .gui-icon {
+  background-color: rgba(109, 158, 225, .4);
+  color: rgba(225, 233, 245, 0.4) !important;
+}
+
+.menubar-pin .menubar-inverse .gui-controls > li.group_menu:not(.gui-folder) > a:hover {
+  background-color: inherit !important;
+}
+
+/*  Couleur de l'icone md md-menu */
+.menubar-inverse .btn-default.btn-icon-toggle{
+    color: rgba(255, 255, 255, 0.65);
+}

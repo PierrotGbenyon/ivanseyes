@@ -1,0 +1,121 @@
+body {
+  background-color: rgba(229, 236, 236, 0.2) !important;
+}
+
+.lock {
+  background-color: rgba(229, 236, 236, 0.69) !important;
+}
+
+/* button tooltip */
+
+  .new_btn {
+    margin-top: -7%;
+  }
+
+  .back_btn {
+    margin-top: -8%;
+  }
+
+/* width */
+
+  .wdth-5 { width: 5%;  }
+  .wdth-10 { width: 10%;  }
+  .wdth-15 { width: 15%;  }
+  .wdth-20 { width: 20%;  }
+  .wdth-25 { width: 25%;  }
+  .wdth-30 { width: 30%;  }
+  .wdth-40 { width: 40%;  }
+
+/* basket */
+
+/* .style-default-light{
+  color: rgba(63, 65, 65, 0.8) !important;
+} */
+
+.red { color: rgba(236, 24, 24, 1) !important; }
+
+  .modal-header{
+    padding: 10px !important;
+    border: none !important;
+  }
+  .modal-backdrop.in{
+    opacity: 0.4 !important;
+  }
+
+  .middle {
+      padding-top: 6% !important;
+      padding-left: 8% !important;
+  }
+
+  .middle-lg {
+      padding-top: 14% !important;
+      padding-left: 9% !important;
+  }
+
+  .modal-action {
+      width: 500px!important;
+      /*color: rgba(78 , 120 , 98 , 1) !important;
+      background-color: rgba(167, 152, 18, 1) !important;*/
+  }
+
+  @media (min-width: 992px){
+    .modal-lg {
+      width: 870px !important;
+    }
+  }
+
+  .form-horizontal .control-label{
+    text-align: left !important;
+  }
+
+  .inscription .text-lg { font-size: 14px !important;}
+
+  .hid{
+    display: none;
+  }
+
+/*bank*/
+  .bank-big-btn{
+    width: 60% !important;
+    height: 120px !important;
+    background-color: rgba(167, 152, 18, 0.65)  !important;
+    color: #fff !important;
+    font-size: 15px !important;
+  }
+
+/*profile*/
+
+  .nano > .nano-pane > .nano-slider {
+    background: rgba(61, 117, 182, 1) !important;
+  }
+  .nano > .nano-pane {
+    background: #fff ;
+  }
+
+  .btn-group .btn + .btn{
+      margin-left: 0px !important;
+  }
+
+  .modal-sm {
+    width: 400px !important;
+  }
+
+  .grey-lithen {
+    background: rgba(223, 222, 213, 0.35) !important;
+  }
+
+  .bg-dash {
+    background-color: rgba(112, 167, 138, 0.5);
+  }
+
+  .alert-callout.alert-IVANS-PLAZA:before {
+    background: rgba(167, 152, 18, 1);
+  }
+
+  .alert-callout.alert-IVANS-PLAZA2:before {
+    background: rgba(112, 167, 138, 1);
+  }
+
+  .dash-link {
+    text-decoration: none !important;
+  }

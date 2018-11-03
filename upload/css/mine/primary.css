@@ -1,0 +1,201 @@
+
+/*
+light rgba(109, 158, 225, 1)
+dark rgba(71, 114, 165, 1)
+#4572a7
+*/
+
+/*text*/
+
+  .text-primary {
+    color: rgba(88, 137, 195, 1) !important;
+  }
+  .text-second-primary {
+    color: rgba(112, 167, 138, 1) !important;
+  }
+  .text-second-primary-dark {
+    color: rgba(78 , 120 , 98 , 1) !important;
+  }
+
+  .color-asterisque{
+    color: rgba(209, 192, 40, 1); /*(181, 31, 31, 1)*/
+  }
+
+/* button */
+
+  .btn-primary {
+      background-color: rgba(88, 137, 195, 1)  !important;
+      border-color: rgba(88, 137, 195, 1)  !important;
+      color: #fff !important;
+  }
+
+  .btn-lprimary {
+      background-color: rgba(88, 137, 195, 0.75) !important;
+      color: #fff !important;
+  }
+
+  .btn-dprimary {
+      background-color: rgba(61, 117, 182, 1)  !important;
+      border-color: rgba(61, 117, 182, 1)  !important;
+      color: #fff !important;
+  }
+
+  .btn-lprimary :active, .btn-lprimary.active {
+    color: #fff ;
+      background-color: rgba(71, 114, 165, 1)  ;
+      border-color: rgba(71, 114, 165, 1);
+  }
+
+  .btn-primary:active, .btn-primary.active {
+    color: #ffffff;
+    background-color: #077871;
+    border-color: #077871;
+  }
+
+  .btn-primary-toggle {
+      /*background-color: rgba(14 , 79 , 23 , 1)  !important;
+      border-color: rgba(14 , 79 , 23 , 1)  !important;*/
+      color: rgba(14 , 79 , 23 , 0.8) !important;
+  }
+
+  .btn-primary-toggle:hover {
+      background-color: rgba(255, 255, 255, 1) !important;
+      color: rgba(14 , 79 , 23 , 1) !important;
+  }
+
+  .btn-primary:hover {
+      background-color: rgba(71, 114, 165, 1)  !important;
+      border-color: rgba(71, 114, 165, 1)  !important;
+      color: #fff !important;
+  }
+
+  .btn-primary2:hover {
+      background-color: rgba(194, 177, 23, 1)  !important;
+      border-color: rgba(194, 177, 23, 1)  !important;
+      color: #fff !important;
+  }
+
+  .radio-styled:not(ie8) input:checked ~ span:before {
+    border-color: rgba(167, 152, 18, 1) !important;
+  }
+
+  .radio-styled:not(ie8) input ~ span:after {
+    background-color: rgba(167, 152, 18, 1) !important;
+  }
+
+  .checkbox-styled:not(ie8).checkbox-primary input:checked ~ span:before {
+    border-color: rgba(167, 152, 18, 1)  !important;
+  }
+
+  .checkbox-styled:not(ie8).checkbox-primary input ~ span:after {
+    background-color: rgba(167, 152, 18, 1)  !important;
+  }
+
+  /* .btn-xxs {
+    font-size: 10px;
+  }
+  .btn-floating-action.btn-xxs {
+    width: 20px;
+    height: 20px;
+  }
+  .btn-floating-action.btn-xxs .fa,
+  .btn-floating-action.btn-xxs .md,{
+    line-height: 12px;
+  } */
+
+/* style */
+
+  .style-primary2 {
+      background-color: #2298f6  !important;
+  }
+  .style-primary {
+      background-color: rgba(88, 137, 195, 1)  !important;
+  }
+  .style-primary-light {
+      background-color: rgba(88, 137, 195, .75)  !important;
+      color: #fff !important;
+  }
+  .style-breadcrumb {
+    color: rgba(71, 114, 165, 1) !important;
+    background-color: rgba(109, 158, 225, .2) !important;
+  }
+
+/* toast */
+
+  .toast-default {
+    background-color: rgba(34, 152, 246,1) !important;
+  }
+  .toast-success {
+    background-color: rgba(7, 130, 86, 1) !important;
+  }
+  .toast-error {
+    background-color: rgba(181, 31, 31, 1) !important;
+  }
+  .toast-info {
+    background-color: rgba(34, 152, 246,1) !important;
+  }
+
+/* typography */
+
+  .text-5xl {
+    font-size: 600%;
+  }
+
+/* table */
+
+  .dataTables_wrapper .dataTables_length,.dataTables_wrapper .dataTables_length select,
+  .dataTables_wrapper .dataTables_filter,.dataTables_wrapper .dataTables_info,
+  .dataTables_wrapper .dataTables_processing,.dataTables_wrapper .dataTables_paginate {
+    color: rgba(88, 137, 195, 1) !important;
+    font-weight: bold !important;
+  }
+
+  .dataTables_wrapper .dataTables_filter input:focus,
+  .dataTables_wrapper .dataTables_length select:focus {
+    outline: 0;
+    outline-color: initial;
+    outline-style: initial;
+    outline-width: 0px;
+    border-bottom-width: 2px;
+    border-bottom-color: rgba(88, 137, 195, 1)  !important;
+  }
+
+  .table {
+    /* color: rgba(71, 114, 165, 1) !important; */
+    color: rgba(109, 111, 110, 1) !important;
+  }
+
+  .table-striped > tbody > tr:nth-child(odd) > td,
+  .table-striped > tbody > tr:nth-child(odd) > th {
+    background-color: rgba(109, 158, 225, .2);
+    /* color: rgba(71, 114, 165, 1) !important; */
+    /* color: rgba(78 , 120 , 98 , 1); */
+  }
+
+  /* the second th of sriped */
+  .table-striped > tbody > tr:nth-child(even) > td{
+    /* color: rgba(88, 137, 195, 1); */
+  }
+
+  table.dataTable.display tbody tr.odd.selected > .sorting_1,
+  table.dataTable.order-column.stripe tbody tr.odd.selected > .sorting_1,
+  table.dataTable.table-striped tbody tr.odd.selected > .sorting_1 {
+    background-color: rgba(88, 137, 195, .25) !important;
+  }
+
+  table.dataTable.display tbody tr.even.selected > .sorting_1,
+  table.dataTable.order-column.stripe tbody tr.even.selected > .sorting_1,
+   table.dataTable.table-striped tbody tr.even.selected > .sorting_1 {
+    background-color: rgba(88, 137, 195, .25) !important;
+  }
+
+  table.dataTable tbody tr.selected {
+    background-color: rgba(109, 158, 225, .2) !important;
+    color: rgba(71, 114, 165, 1) !important;
+  }
+
+  .table-hover > tbody > tr:hover > td,
+  .table-hover > tbody > tr:hover > th {
+    background-color:  rgba(109, 158, 225, .2) !important;
+    /* color: rgba(78 , 120 , 98 , 1) !important; */
+  }
